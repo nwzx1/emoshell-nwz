@@ -1,6 +1,6 @@
 {
   "name": "emoshell",
-  "homepage": "https://voidnwzx32s.github.io/",
+  "homepage": "src/index.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
