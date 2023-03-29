@@ -1,0 +1,70 @@
+.midl{
+    color: var(--h4txt-clr);
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.orderBox{
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    
+    background-color: rgba(0, 255, 255, 0);
+}
+.IBox{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    height: 20rem;
+}
+.img110{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.discs{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    border-bottom: 2px solid rgb(134, 134, 134);
+}
+.title6{
+    background-color: transparent;
+    color: var(--h4txt-clr);
+    width: 50%;
+}
+.anns{
+    background-color: transparent;
+    color: var(--h41txt-clr);
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.cusDE{
+    background-color: transparent;
+    color: var(--h41txt-clr);
+    font-size: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+.btn_001{
+    cursor: pointer;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 16px;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--bg-btn-clr);
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}

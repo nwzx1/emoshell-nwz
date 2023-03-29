@@ -1,0 +1,85 @@
+.Dailog{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    /* filter: blur(50px); */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.253);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dai_box{
+  
+    background-color: rgb(28, 29, 39);
+    height: 12rem;
+    width: 20rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.up{
+    background-color: rgba(255, 255, 255, 0);
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(231, 231, 231);
+}
+.down{
+    background-color: rgba(255, 255, 255, 0);
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn01{
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.185);
+}
+.btn01:hover{
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.459);
+}
+.btn02{
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 85, 0.226);
+}
+.btn02:hover{
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 85, 0.404);
+}
+
+@media (max-width: 600px) {
+    .Dailog{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        /* filter: blur(50px); */
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.547);
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

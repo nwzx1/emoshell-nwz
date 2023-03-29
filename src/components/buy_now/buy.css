@@ -1,0 +1,282 @@
+.buy2{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.585);
+}
+.byPOP{
+    overflow-y: scroll;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.538);
+    background-color: rgb(255, 255, 255);
+    width: 40rem;
+    height: 80%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 4px solid rgba(167, 167, 167, 0.415);
+}
+.topG1{
+    padding: 10px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.538);
+    border: 4px solid rgba(147, 147, 147, 0.196);
+    background-color: var(--bg-lst-clr);
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.XX{
+    background-color: transparent;
+}
+.img_box_10{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 20rem;
+}
+.frmmm1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px dashed rgba(146, 146, 146, 0.489);
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.verif{
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    height: 3rem;
+    
+}
+.xcl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: rgb(82, 187, 253);
+
+}
+.flnam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(82, 213, 253);
+}
+
+.inp_box1{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(214, 189, 156, 0);
+}
+.txt1100{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    background-color: rgba(234, 234, 234, 0.708);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid  rgba(82, 187, 253, 0);
+    margin-bottom: 20px;
+    transition: 300ms;
+}
+.txt1100:focus{
+    border: 3px solid  rgb(82, 187, 253);
+}
+.ins{
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:justify;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 8rem;
+}
+.ccbx{
+    
+    margin-right: 20px;
+    width: 5rem;
+        height: 5rem;
+        outline: none;
+}
+.butttn1{
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    text-align:justify;
+    background-color: var(--bg-lst-clr);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+@media (max-width: 700px) {
+
+    .buy2{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.585);
+    }
+    .byPOP{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 80%;
+    }
+    .topG1{
+        background-color: var(--bg-lst-clr);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 3rem;;
+        color: white;
+    }
+    .XX{
+        background-color: transparent;
+    }
+    .img_box_10{
+        padding: 20px;
+        background-color: rgba(102, 102, 173, 0);
+        width: 100%;
+        height: 20rem;
+    }
+    .frmmm1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 2px dashed rgba(146, 146, 146, 0.489);
+        width: 100%;
+        height: 80%;
+        margin-bottom: 10px;
+    }
+    .verif{
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.219);
+        border-radius: 10px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        height: 3rem;
+        background-color: rgb(82, 213, 253);
+    }
+    .xcl{
+        width: 20%;
+    
+    }
+    .inp_box1{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align:justify;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(214, 189, 156, 0);
+    }
+    .txt1100{
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        outline: none;
+        background-color: rgba(234, 234, 234, 0.708);
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 3px solid  rgba(82, 187, 253, 0);
+        transition: 300ms;
+    }
+    .txt1100:focus{
+        border: 3px solid  rgb(82, 187, 253);
+    }
+    .ins{
+        font-size: 9px;
+        font-weight: 500;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align:justify;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: 8rem;
+    }
+    .ccbx{
+        margin-right: 20px;
+        width: 5rem;
+        height: 5rem;
+        outline: none;
+    }
+    
+    .butttn1{
+        color: aliceblue;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        text-align:justify;
+        background-color: var(--bg-lst-clr);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+    }
+}

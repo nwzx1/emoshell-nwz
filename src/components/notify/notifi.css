@@ -1,0 +1,203 @@
+*{
+    overflow: hidden;
+}
+.main{
+    overflow-y: scroll;
+}
+.Edit{
+    background-color: rgba(160, 170, 226, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56.3rem;
+    margin-top: 90px;
+    margin-left: 5.5rem;
+}
+.midEdit{
+    background-color: var(--fg--lgt-clr);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.285);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 45rem;
+    height: 95%;
+    border: 4px solid rgba(147, 147, 147, 0.119);
+}
+.topNv{
+    width: 100%;
+    height: 3rem;
+    color: aliceblue;
+    background-color: var(--fg-clr);
+}
+.bckbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    width: 3rem;
+    background-color: rgba(240, 248, 255, 0);
+}
+.img123{
+    width: 1.6rem;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+
+
+.midl{
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.txt{
+    font-size: 20px;
+    font-weight: 600;
+    height: 4%;
+    
+    background-color: rgba(255, 255, 255, 0);
+}
+.userFeild{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+
+.box77{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+    height: 3rem;
+}
+.orders{
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--fg-clr);
+    color:aliceblue;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+}
+.orders:active{
+    background-color: rgb(63, 44, 91);
+}
+.maisd{
+    padding: 5px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.misd{
+    background-color: transparent;
+}
+
+@media (max-width: 700px) {
+
+    *{
+        overflow: hidden;
+    }
+    .main{
+        overflow-y: scroll;
+    }
+    .Edit{
+        background-color: rgba(160, 170, 226, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 56.3rem;
+        margin-top: 0px;
+        margin-left: 0rem;
+    }
+    .midEdit{
+        background-color: var(--fg--lgt-clr);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.285);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 0px;
+        width: 45rem;
+        height: 100%;
+        border: 4px solid rgba(147, 147, 147, 0.119);
+    }
+    .topNv{
+        width: 100%;
+        height: 3rem;
+        color: aliceblue;
+        background-color: var(--fg-clr);
+    }
+    .bckbtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        cursor: pointer;
+        width: 3rem;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    .img123{
+        width: 1.6rem;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    
+    
+    
+    .midl{
+        overflow-y: scroll;
+        background-color: rgba(0, 255, 255, 0);
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .txt{
+        font-size: 20px;
+        font-weight: 600;
+        height: 4%;
+        color: var(--h4txt-clr);
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .userFeild{
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .list_noti{
+        margin: 0.3rem;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 3rem;
+        border-radius: 7px;
+        border: 3px solid rgb(210, 210, 210);
+        
+    }
+    
+    .img_box01{
+        margin: 5px;
+        border-radius: 5px;
+        width: 2rem;
+        height: 2rem;
+    }
+    .im1g{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+}

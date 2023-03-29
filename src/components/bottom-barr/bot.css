@@ -1,0 +1,96 @@
+.bux1{
+    padding: 2px;
+    align-self:flex-end;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: var(--bg-lst-clr);
+    border-radius: 50%;
+    border: 3.5px solid rgba(255, 255, 255, 0.055);
+    width: 3.4rem;
+    height: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.527);
+    transition: 300ms;
+}
+.bux1:hover{
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.527);
+    right: 1rem;
+    bottom: 2rem;
+}
+.b01{
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 247, 236, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+.b01:hover{
+    
+    background-color: rgba(215, 166, 255, 0.174);
+    
+}
+.mt{
+    width: 0.3rem;
+}
+.img09{
+    background-color: transparent;
+    height: 55%;
+}
+
+
+@media (max-width: 700px) {
+    .bux1{
+        padding: 2px;
+        align-self:flex-end;
+        position: fixed;
+        right: 1.5rem;
+        bottom: 5rem;
+        background-color: var(--bg-lst-clr);
+        border-radius: 50%;
+        border: 3.5px solid rgba(255, 255, 255, 0.055);
+        width: 3.4rem;
+        height: 3.4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.527);
+        transition: 300ms;
+    }
+    .bux1:hover{
+        box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.527);
+        right: 1rem;
+        bottom: 6rem;
+    }
+    .b01{
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: rgba(255, 247, 236, 0);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 300ms;
+    }
+    .b01:hover{
+        
+        background-color: rgba(215, 166, 255, 0.174);
+        
+    }
+    .mt{
+        width: 0.3rem;
+    }
+    .img09{
+        background-color: transparent;
+        height: 55%;
+    }
+    
+    
+}

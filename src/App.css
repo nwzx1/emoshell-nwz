@@ -1,0 +1,50 @@
+.darkmode{
+    --bg-crd-clr : #f9f7ff;
+    --add-p-top: rgb(51, 77, 102);
+    --add-prod:  rgb(66, 74, 112);
+    --sd-btn-hvr: #a7bdfa;
+    --sd-btn-clr: #a7bdfa;
+    --sd-clr: #eeeafd;
+    --bg-clr: #554882;
+    --fg-clr:  #625299;
+    --fgltg-clr:#2b2440;
+    --fg--lgt-clr:#423667;
+    --fg-ltg-clr:  #ffffff;
+    --h3txt-clr: rgb(238, 250, 255);
+    --h1txt-clr: #d4c9f8;
+    --h0txt-clr: #c2abec;
+    --h4txt-clr: #ffffff;
+    --h41txt-clr: #d6d5d5;
+    --h2txt-clr: rgb(185, 163, 235);
+    --bg-lst-clr: #3e345d; 
+    --fg-lst-clr: #5b4c88; 
+    --fg-brdr-clr: #6d5b9e; 
+    --bg-btn-clr: #8169c2;
+    --bg-light-clr:  #6c4cd615;
+    --bg-userEdit-clr:rgba(160, 170, 226, 0.377);
+}
+.lightmode{
+    --bg-crd-clr : #f9f7ff;
+    --add-p-top: rgb(51, 77, 102);
+    --add-prod:  rgb(66, 74, 112);
+    --sd-btn-hvr: #a7bdfa;
+    --sd-btn-clr: #a7bdfa;
+    --sd-clr: #eeeafd;
+    --bg-clr: #554882;
+    --fg-clr:  #625299;
+    --fg-ltg-clr:#ffffff;
+    --fg--lgt-clr:#ffffff;
+    --fgltg-clr:  #ffffff;
+    --h3txt-clr: rgb(238, 250, 255);
+    --h1txt-clr: #d4c9f8;
+    --h0txt-clr: #c2abec;
+    --h4txt-clr: #272727;
+    --h41txt-clr: #616161;
+    --h2txt-clr: rgb(185, 163, 235);
+    --bg-lst-clr: #3e345d; 
+    --fg-lst-clr: #5b4c88; 
+    --fg-brdr-clr: #6d5b9e; 
+    --bg-btn-clr: #8169c2;
+    --bg-light-clr:  #6c4cd615;
+    --bg-userEdit-clr:rgba(160, 170, 226, 0.377);
+}

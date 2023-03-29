@@ -1,0 +1,191 @@
+*{
+    transition: 1ms;
+}
+.sideNev_close{
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.478);
+    border-right: 5px solid rgba(255, 255, 255, 0.164);
+    border-top: 4px solid rgba(255, 255, 255, 0.059);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.164);
+    position: absolute;
+    z-index: 1;
+    top: 2.7rem;
+    left: 0;
+    height: 90%;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-lst-clr);
+    padding-top: 12px;
+    border-radius: 0px 40px 40px 0px;
+    color: rgb(255, 255, 255);
+}
+.sideNev_open{ 
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.818);
+    border-right: 5px solid rgba(255, 255, 255, 0.164);
+    border-top: 4px solid rgba(255, 255, 255, 0.059);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.164);
+    position: absolute; 
+    top: 2.7rem;
+    left: 0;
+    height: 90%;
+    left: 0;
+    z-index: 1;
+    padding: 10px;
+    background-color: var(--bg-lst-clr);
+    /* width: 20rem; */
+    overflow-y: scroll;
+    padding-top: 12px;
+    border-radius: 0px  40px 40px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.sideNev_open::-webkit-scrollbar{
+    display: none;
+}
+.logo01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 2.7rem;
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+}
+.img1234{
+    height: 100%;
+    background-color: transparent;
+}
+.nevtix1{
+    overflow-y: scroll;
+    background-color: rgba(32, 79, 121, 0);
+}
+.userLogs1{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0);
+}
+.nevtix1::-webkit-scrollbar{
+    display: none;
+}
+.Add1{
+    height: 60%;
+    /* width: 70%; */
+    /* margin-right: 10px; */
+    background-color: rgba(240, 248, 255, 0);
+}
+.etxt1{
+    font-weight: 500;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.etxt41{
+    width: 80%;
+    font-weight: 500;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.UserMode1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 4rem;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rtn11{
+   width: 50%;
+   height: 90%;
+   border-radius: 5px;
+   background-color: var(--bg-btn-clr);
+}
+.rtn21{
+    width: 50%;
+    height: 90%;
+    border-radius: 5px;
+    /* background-color: var(--bg-btn-clr); */
+}
+
+
+
+.Side1{
+    position: static;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+
+
+    
+}
+
+
+.img1{
+    background-color: transparent;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.side21{
+    background-color: rgba(0, 15, 15, 0);
+    height: 100%;
+    
+    width: 100%;
+}
+.editUser1{
+    cursor: pointer;
+    height: 10%;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.editUser1:hover{
+    cursor: pointer;
+    background-color: var(--bg-clr);
+}
+
+
+
+@media (max-width: 700px) {
+    .sideNev_close{
+        display: none;
+        padding: 16px;
+        background-color: var(--bg-lst-clr);
+        width: 5rem;
+        padding-top: 12px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: rgb(255, 255, 255);
+    }
+    .sideNev_open{
+        display: none;
+        padding: 10px;
+        background-color: var(--bg-lst-clr);
+        width: 20rem;
+        padding-top: 12px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: rgb(255, 255, 255);
+    }
+}

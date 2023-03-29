@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--fgltg-clr);
+    overflow: hidden;
+}
+.mainbox{
+    background-color:var(--bg-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2ms;
+    overflow-y: scroll;
+     
+} 
+.mainbox::-webkit-scrollbar {
+    display: none;
+}
+.logintext{
+   background-color: transparent;
+   font-size: 2rem;
+   font-weight: 500;
+   color: var(--h1txt-clr);
+   padding-bottom: 1rem;
+}
+.welcome{
+    background-color: transparent;
+    padding-bottom: 1rem;
+    color: var(--h2txt-clr);
+}
+.midllbox{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-top: 15rem;
+    border: 5px solid rgba(0, 0, 0, 0.277);
+    margin-bottom: 17rem;
+    padding: 1rem;
+    background-color: rgb(30, 27, 57);
+    /* height: 27rem; */
+    width: 20rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.feild{
+    border-radius: 5px;
+    border: 3px solid var(--bg-clr);
+    outline: none;
+    color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    padding: 0.9rem 0.75rem;
+    background-color: var(--bg-light-clr);
+    width: 100%;
+    transition: 300ms;
+}
+.feild:focus{
+
+    border: 3px solid rgb(235, 212, 255);
+
+}
+.ortext{
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: var(--h2txt-clr);
+}
+.btn{
+    border: 0px solid rgba(255, 255, 255, 0.253);
+    background-color: var(--bg-btn-clr);
+    font-size: 1rem;
+    height: 3rem;
+    width: 70%;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .btn:hover{
+    background-color: var(--fg-lts-clr);
+    color: rgb(255, 255, 255);
+} */
+.validate{
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.toggle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    color: aliceblue;
+    align-self: center;
+  
+}
+.toggle2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    color: aliceblue;
+  
+}
+.togglemove1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-btn-clr);
+    height: 3rem;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.togglemove2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-btn-clr);
+    height: 3rem;
+    width: 30%;
+    margin-right: 1%;
+    border-radius: 5px;
+    /* transform: translateX() */
+}
+@media (max-width: 600px) {
+    .mainbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2ms;
+        overflow-y: scroll;
+         
+    } 
+    .mainbox::-webkit-scrollbar {
+        display: none;
+    }
+    .logintext{
+       background-color: transparent;
+       font-size: 2rem;
+       font-weight: 500;
+       color: var(--h1txt-clr);
+       padding-bottom: 1rem;
+    }
+    .welcome{
+        background-color: transparent;
+        padding-bottom: 1rem;
+        color: var(--h2txt-clr);
+    }
+    .midllbox{
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        margin-top: 15rem;
+        border: 3px solid rgba(35, 35, 35, 0.234);
+        margin-bottom: 17rem;
+        padding: 1rem;
+        background-color: rgb(30, 27, 57);
+        /* height: 27rem; */
+        width: 90%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .feild{
+        border-radius: 5px;
+        border: 3px solid var(--fg-brdr-clr);
+        outline: none;
+        color: rgb(255, 255, 255);
+        margin: 0.5rem 0;
+        padding: 0.9rem 0.75rem;
+        background-color: var(--bg-light-clr);
+        width: 100%;
+        transition: 300ms;
+    }
+    .feild:focus{
+
+        border: 3px solid rgb(235, 212, 255);
+
+    }
+    .ortext{
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: var(--h2txt-clr);
+    }
+    .btn{
+        border: 0px solid rgba(255, 255, 255, 0.253);
+        background-color: var(--bg-btn-clr);
+        font-size: 1rem;
+        height: 3rem;
+        width: 70%;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .btn:hover{
+        background-color: var(--fg-lts-clr);
+        color: rgb(255, 255, 255);
+    } */
+    .validate{
+        background-color: transparent;
+        color: rgb(255, 0, 0);
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .toggle1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 3rem;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 5px;
+        color: aliceblue;
+        align-self: center;
+      
+    }
+    .toggle2{
+        width: 100%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* height: 3rem;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 5px;
+        color: aliceblue; */
+      
+    }
+    .togglemove1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-btn-clr);
+        height: 3rem;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+    .togglemove2{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-btn-clr);
+        height: 3rem;
+        width: 30%;
+        margin-right: 1%;
+        border-radius: 5px;
+        /* transform: translateX() */
+    }
+}

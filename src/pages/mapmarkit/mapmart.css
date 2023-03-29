@@ -1,0 +1,48 @@
+*{
+    overflow: hidden;
+   
+}
+.Xmain{
+   overflow-y: scroll;
+ 
+}
+.Xmain::-webkit-scrollbar {
+    display: none;
+}
+
+.Xmidbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ymidbox{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  
+}
+.toparea{
+    background-color: var(--bg-clr);
+    /* height: 25rem; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    background-color: var(--fg-clr);
+}
+
+@media (max-width: 600px) {
+    .toparea{
+        background-color: var(--bg-clr);
+        /* height: 25rem; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center; 
+    }
+}

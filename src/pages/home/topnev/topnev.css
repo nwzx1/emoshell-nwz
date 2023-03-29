@@ -1,0 +1,486 @@
+.topnev{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    
+}
+.emo{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: transparent;
+    font-size: 10px;
+    font-weight: 700;
+    width: 30%;
+    margin-left: 20px;
+}
+.nevigaters{
+    background-color: rgba(255, 0, 0, 0);
+    width: 33%;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+/* .nextpg{
+    color: rgb(0, 132, 247);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 90px;
+}
+.nextpg:hover{
+    background-color: rgb(0, 110, 255);
+    box-shadow: rgb(0, 0, 0) 0px 1px 10px;
+    width: 90px;
+} */
+
+
+.nevicons2{
+    background-color: rgba(255, 0, 0, 0);
+    width: 35.9%;
+    height: 100%;
+    padding: 0px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.prsn{
+    border-radius: 50%;
+     width: 50%;
+    /* height: %; */
+    background-color: rgba(205, 223, 255, 0);
+    /* box-shadow: rgb(116, 116, 116) 0px 1px 10px; */
+}
+.nxtpg{
+  background-color: transparent;
+}
+.nextlogin1{
+    color: var(--h0txt-clr);
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 20px;
+    text-align: center;
+    padding: 5px;
+    height: 100%;
+    transition: 0.1s;
+    width: 90px;
+}
+.nextlogin1:hover{
+    background-color: rgba(255, 255, 255, 0);
+    width: 90px;
+    border-radius: 5px;
+}
+  
+
+
+.nextlogin{
+    color: var(--h0txt-clr);
+    cursor: pointer;
+    display: flex;
+    background-color: rgba(23, 78, 151, 0);
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    height: 100%;
+    width: 4rem;
+}
+.nextlogin:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+   
+}
+.userstatus{
+    color: var(--h0txt-clr);
+    cursor: pointer;
+    display: flex;
+    background-color: rgba(2, 92, 211, 0);
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    height: 100%;
+    width: 3rem;
+}
+.userstatus:hover{
+    background-color: rgba(30, 110, 214, 0.13);
+    box-shadow: rgba(0, 118, 253, 0) 0px 1px 10px;
+}
+
+
+.Searchbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.1rem;
+    border-radius: 5px;
+    /* background-color: var(--bg-lst-clr); */
+    background-color: rgba(0, 0, 0, 0.096);
+    border: 0.11rem solid rgba(0, 0, 0, 0.227);
+   
+   
+}
+
+.search{ 
+   transition: 0.1s;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color: rgba(255, 0, 0, 0);
+   border: 0px solid rgba(58, 88, 122, 0.308);
+   outline: none;
+   padding-left: 0px;
+   padding: 6px;
+   padding-bottom: 9px;
+   
+   
+
+}
+.search::placeholder{
+    color: rgb(111, 111, 111);
+    font-size: 14px;
+}
+.iconbx1{
+   border-radius: 5px;
+   border: 0px solid rgb(58, 88, 122);
+   padding-left:7px;
+   cursor: pointer;
+   padding-right: 7px;
+   padding-top: 8px;
+   margin-right: 0px;
+   width: 2rem;
+   height: 2rem;
+   background-color: var(--bg-clr);
+   transition: 0.3s;
+    
+}
+.iconbx1:hover{
+   background-color: rgb(0, 0, 0);
+}
+.icnin{
+    background-color: transparent;
+   
+    
+}
+
+.vn1{
+    display: none;
+}
+.img03{
+    padding: 13px;
+    background-color: rgba(255, 235, 205, 0);
+}
+.log{
+
+    background-color: transparent;
+}
+
+.clk33{
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 4rem;
+    right: 1.6rem;
+    width: 10rem;
+    border-radius: 5px;  
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: var(--bg-lst-clr);
+}
+.poch{
+    background-color: transparent;
+}
+.clm33{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    height: 2rem;
+}
+.img33{
+    background-color: transparent;
+    margin-right: 10px;
+    height: 2rem;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    .topnev{
+        position: fixed;
+        left: 6rem;
+        right: 6rem;
+        top: 0.4rem;
+        height: 3rem;
+        width: auto;
+        display: flex;
+        align-items: center;
+        border: 4px solid rgba(204, 204, 204, 0.051);
+        background-color: var(--bg-lst-clr);
+        border-radius: 40px 40px 40px 40px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.595);
+        
+    }
+    .emo{
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        color: var(--h1txt-clr);
+        font-size: 25px;
+        font-weight: 700;
+        width: 35%;
+        margin-left: 30px;
+        text-shadow: rgba(53, 53, 53, 0.979) 0px 2px 5px;;
+    }
+    
+    .nevigaters{
+        background-color: rgba(255, 0, 0, 0);
+        width: 13%;
+        height: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    /* .nextpg{
+        color: rgb(0, 132, 247);
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        padding: 5px;
+        width: 90px;
+    }
+    .nextpg:hover{
+        background-color: rgb(0, 110, 255);
+        box-shadow: rgb(0, 0, 0) 0px 1px 10px;
+        width: 90px;
+    } */
+    
+    
+    .nevicons2{
+        background-color: rgba(255, 0, 0, 0);
+        width: 35.9%;
+        height: 100%;
+        padding: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        
+    }
+    .prsn{
+        border-radius: 50%;
+         width: 50%;
+        /* height: %; */
+        background-color: rgba(205, 223, 255, 0);
+        /* box-shadow: rgb(116, 116, 116) 0px 1px 10px; */
+    }
+    .nxtpg{
+      background-color: transparent;
+    }
+    .nextlogin1{
+        color: var(--h0txt-clr);
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 0, 0, 0);
+        margin-left: 20px;
+        text-align: center;
+        padding: 5px;
+        height: 100%;
+        transition: 0.1s;
+        width: 90px;
+    }
+    .nextlogin1:hover{
+        background-color: rgba(255, 255, 255, 0.096);
+        width: 90px;
+        border-radius: 5px;
+    }
+      
+    
+    
+    .nextlogin{
+        color: var(--h0txt-clr);
+        cursor: pointer;
+        display: flex;
+        background-color: rgba(23, 78, 151, 0);
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        height: 100%;
+        width: 4rem;
+    }
+    .nextlogin:hover{
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0);
+       
+    }
+    .userstatus{
+        color: var(--h0txt-clr);
+        cursor: pointer;
+        display: flex;
+        background-color: rgba(2, 92, 211, 0);
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        height: 100%;
+        width: 3rem;
+    }
+    .userstatus:hover{
+        background-color: rgba(30, 110, 214, 0.13);
+        box-shadow: rgba(0, 118, 253, 0) 0px 1px 10px;
+    }
+    
+    
+    .Searchbx{
+        display: none;
+       
+        justify-content: center;
+        align-items: center;
+        height: 2.1rem;
+        width: 50%;
+        border-radius: 5px;
+        background-color: var(--bg-lst-clr);
+       
+    }
+    .search{
+       border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px;
+       color: var(--h3txt-clr);
+       background-color: rgba(255, 0, 0, 0);
+       border: 0px solid rgba(58, 88, 122, 0.308);
+       outline: none;
+       /* color: rgb(49, 49, 49); */
+       margin: 0.0rem 0;
+       padding: 0.9rem 0.75rem;
+       width: 100%;
+       
+       
+    
+    }
+    .search::placeholder{
+        color: rgb(187, 187, 187);
+        font-size: 14px;
+    }
+    .iconbx1{
+       border-radius: 5px;
+       border: 0px solid rgb(58, 88, 122);
+       padding-left:7px;
+       cursor: pointer;
+       padding-right: 7px;
+       padding-top: 8px;
+       margin-right: 2px;
+       width: 2rem;
+       height: 90%;
+       background-color: var(--fg-clr);
+       transition: 0.3s;
+        
+    }
+    .iconbx1:hover{
+       background-color: rgb(0, 0, 0);
+    }
+    .icnin{
+        background-color: transparent;
+       
+        
+    }
+
+
+    /* /// 2ndd nev */
+    .vn1{
+        align-self: center;
+        margin: 0%;
+        position: fixed;
+        border-radius: 20px 20px 20px 20px;
+        left: 1.2rem;
+        right: 1.2rem;
+        bottom: 0.2rem;
+        height: 3.5rem;
+        background-color: var(--bg-lst-clr);
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 4px solid rgba(255, 255, 255, 0.056);
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.479);
+        /* border-bottom: 4px solid rgba(0, 0, 0, 0.251); */
+    }
+    .b02{
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 0px;
+        background-color: rgba(255, 247, 236, 0.011);
+        width: 8rem;
+        margin: 0px;
+        padding: 2px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 300ms;
+    }
+    .b03{
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 0px;
+        background-color: rgba(255, 247, 236, 0);
+        width: 9rem;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 300ms;
+    }
+
+    .b02:active{
+        border: 3px solid rgba(245, 245, 245, 0.238);
+        background-color: rgba(215, 166, 255, 0.111);
+        
+    }
+    .mt1{
+        width: 0.3rem;
+    }
+    .img09{
+        background-color: transparent;
+        height: 75%;
+    }
+    
+}
