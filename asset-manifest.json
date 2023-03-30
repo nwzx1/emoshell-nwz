@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EMO/static/css/main.7b525495.css",
+    "main.js": "/EMO/static/js/main.8cf0be4a.js",
+    "static/media/m_bnr.jpg": "/EMO/static/media/m_bnr.8aa2497b2de78907afb2.jpg",
+    "static/media/user.png": "/EMO/static/media/user.63f95bf09e6245a94484.png",
+    "static/media/location.png": "/EMO/static/media/location.113ec8a893bc56386c2b.png",
+    "index.html": "/EMO/index.html",
+    "main.7b525495.css.map": "/EMO/static/css/main.7b525495.css.map",
+    "main.8cf0be4a.js.map": "/EMO/static/js/main.8cf0be4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b525495.css",
+    "static/js/main.8cf0be4a.js"
+  ]
+}
